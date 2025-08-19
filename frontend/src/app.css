@@ -1,3 +1,20 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@plugin '@tailwindcss/forms'
+@plugin '@tailwindcss/forms';
+
+@layer base {
+	button {
+		@apply px-4 py-2
+			bg-gray-300 hover:bg-gray-200 active:bg-gray-400
+			rounded-md
+			shadow-md
+			transition-all
+		;
+	}
+}
+
+@layer component {
+	input, select, textarea {
+		@apply rounded-md;
+	}
+}

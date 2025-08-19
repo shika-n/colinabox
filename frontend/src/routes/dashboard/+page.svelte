@@ -1,3 +1,1 @@
-<div class="prose text-white">
-	<h1>Welcome to Collection In A Box</h1>
-</div>
+<h1 class="text-center text-3xl font-bold">Welcome to Colinabox!</h1>
